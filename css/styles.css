@@ -1,0 +1,146 @@
+body {
+  background-color: #0395bb;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(191.76, 100%, 50%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(189.18, 100%, 62%) 0, transparent 55%);
+  text-align: center;
+}
+h1,
+h2,
+h5 {
+  font-family: "Playfair Display", serif;
+  font-style: oblique;
+}
+h4 {
+  font-family: "Sacramento", cursive;
+}
+.card-text,
+.payment-form {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-style: italic;
+}
+.payment-form {
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(0, 106, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin: 75px auto 150px auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+@media only screen and (max-width: 550px) {
+  .payment-form {
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 300px;
+  }
+  .card-title,
+  .card-text{
+    font-size: 0.7rem;
+  }
+  .card-img-overlay{
+    width: 100%;
+  }
+}
+.card {
+  text-align: center;
+  margin: 60px;
+}
+.notice {
+  font-family: "Ubuntu", sans-serif;
+  color: red;
+  margin: 50px;
+}
+.card-text,
+.card-title {
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(160, 196, 255, 0.173);
+  border-radius: 12px;
+  border: 1px solid rgba(165, 163, 206, 0.893);
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.bottom-block {
+  font-size: 0.8rem;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+}
+.contactpara {
+  width: 40%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .card {
+    text-align: center;
+    margin: 20px;
+    margin-top: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .bottom-block {
+    font-size: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .contactpara {
+    width: 40%;
+    margin: auto;
+  }
+}
+.card-img {
+  height: 400px;
+  width: 1600px;
+}
+.btn {
+  background: #00eeff;
+  background-image: -webkit-linear-gradient(top, #00eeff, #0079b5);
+  background-image: -moz-linear-gradient(top, #00eeff, #0079b5);
+  background-image: -ms-linear-gradient(top, #00eeff, #0079b5);
+  background-image: -o-linear-gradient(top, #00eeff, #0079b5);
+  background-image: linear-gradient(to bottom, #00eeff, #0079b5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 10px 10px 30px #0019b8;
+  -moz-box-shadow: 10px 10px 30px #0019b8;
+  box-shadow: 10px 10px 30px #0019b8;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #0098d9 3px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #025ec7;
+  background-image: -webkit-linear-gradient(top, #025ec7, #00bbd4);
+  background-image: -moz-linear-gradient(top, #025ec7, #00bbd4);
+  background-image: -ms-linear-gradient(top, #025ec7, #00bbd4);
+  background-image: -o-linear-gradient(top, #025ec7, #00bbd4);
+  background-image: linear-gradient(to bottom, #025ec7, #00bbd4);
+  text-decoration: none;
+}
